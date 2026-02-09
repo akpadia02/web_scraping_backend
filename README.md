@@ -34,12 +34,43 @@ Flask REST API for real-time precious metals pricing from bullions.co.in with in
 
 - Python 3.8+, Flask 3.1.2, BeautifulSoup4 4.14.3, Requests 2.32.5, flask-cors 6.0.2
 
+<<<<<<< HEAD
 ---
 
 ## Installation
 
 ```bash
 git clone <repo-url>
+=======
+
+---
+
+## API Endpoint
+
+### Get Metals Data
+
+GET /api/metals
+
+### Sample Response
+
+{
+  "gold": {
+    "types": {
+      "gold 24 karat": "15526",
+      "gold 22 karat": "14232"
+    },
+    "unit": "INR/1g"
+  }
+}
+
+---
+
+## Installation & Setup (Local)
+
+### Step 1: Clone Repository
+
+git clone <your-repository-url>
+>>>>>>> 508cd900ce3d55c24cebc28d782946973be02384
 cd indian-metals-dashboard/backend
 python -m venv venv
 venv\\Scripts\\activate  # Windows: or source venv/bin/activate
@@ -82,6 +113,7 @@ gunicorn -w 4 -b 0.0.0.0:5000 app:app
 ```
 
 ---
+<<<<<<< HEAD
 
 ## Deployment
 
@@ -108,3 +140,5 @@ gunicorn -w 4 -b 0.0.0.0:5000 app:app
 **Author:** Akshay H. Padia | B.Tech CSE
 
 
+=======
+>>>>>>> 508cd900ce3d55c24cebc28d782946973be02384
