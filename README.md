@@ -28,16 +28,6 @@ The backend is built using Python, Flask, and BeautifulSoup.
 | BeautifulSoup | Web Scraping         |
 | Flask-CORS    | Cross-Origin Support |
 
----
-
-## Project Structure
-
-backend/
-│
-├── app.py
-├── scraper.py
-├── requirements.txt
-└── README.md
 
 ---
 
@@ -55,7 +45,7 @@ GET /api/metals
       "gold 24 karat": "15526",
       "gold 22 karat": "14232"
     },
-    "unit": "INR/10g"
+    "unit": "INR/1g"
   }
 }
 
